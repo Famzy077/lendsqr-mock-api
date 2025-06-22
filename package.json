@@ -1,3 +1,12 @@
-"scripts": {
-  "start": "json-server --watch db.json --host 0.0.0.0"
-},
+{
+  "name": "lendsqr-mock-api",
+  "version": "1.0.0",
+  "description": "Mock API server for Lendsqr assessment.",
+  "main": "server.js",
+  "scripts": {
+    "start": "json-server --watch db.json --host 0.0.0.0"
+  },
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
